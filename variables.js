@@ -1,7 +1,17 @@
+let n = 5 + 5*4;
+console.log(n);
+
+
 
 
 /*
 
+let a = 'blue';
+let b = 'green';
+
+const c = a || b;
+
+console.log(c);
 
 let a = null;
 
