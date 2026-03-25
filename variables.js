@@ -1,3 +1,38 @@
+
+
+
+
+/*
+
+let n = [1,2,3,4,5,6,7,8,9];
+
+for(let x  of n){
+    console.log(x);
+}
+const course = {
+    name: 'John Doe',
+    duration: 3,
+    sections: 7
+}
+
+
+for (const key in course) {
+    console.log(course[key])
+}
+
+
+console.log(course.name)
+console.log(course.duration)
+console.log(course.sections)
+
+while(true){
+    console.log('tik tak');
+    break;
+}
+
+
+
+
 let n = [1,2,3,4,5,6,7,8,9];
 
 let i  =0;
@@ -8,8 +43,6 @@ do {
     }while (i<10);
 
 
-
-/*
 for (let i = 0; i < n.length; i++) {
     console.log(n[i]);
 }
