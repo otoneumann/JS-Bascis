@@ -1,9 +1,126 @@
+const person = {
+    name: "John",
+}
+
+console.log(person.constructor);
+
+/*
+person.food=12;
+
+person['favouriteIceCream'] = 'choco';
 
 
+delete person['favouriteIceCream'];
+
+console.log(person);
+
+person.eat = function() {
+    console.log('eat');
+}
+
+person.eat();
+
+function getDog(name, breed, age, weight) {
+    return{
+        name,
+        breed,
+        age,
+        weight,
+        eat(){
+            console.log('champ')
+        }
+        ,
+        bark(){
+            console.log('Wiofof');
+        }
+    }
+}
+
+function Dog(name, breed, age, weight) {
+    this.name = name;
+    this.breed = breed;
+    this.age = age;
+    this.weight = weight;
+
+    this.eat = function() {
+        console.log(this.name + 'chomp');
+    }
+    this.bark = function() {
+        console.log(this.name + 'Woof');
+    }
+}
+
+const anotherDog = new Dog('Marl', 'Lab', 2,49);
+
+console.log(anotherDog);
+
+const anotherOne = getDog('Mumu', 'chocolate Lab', 2,60);
+
+console.log(anotherOne);
+const
+dog = {
+    name: 'Max',
+    breed: 'Breed',
+    age: 5,
+    weight: 12,
+    eat:
+        function () {
+            console.log('wuwu');
+        },
+    bark() {
+        console.log('Wiofof');
+    }
+}
+
+
+cosnt
+dog = {
+    name: 'marly',
+    breed: 'Breed',
+    age: 5,
+    weight: 12,
+    eat:
+        function () {
+            console.log('wuwu');
+        },
+    bark() {
+        console.log('Wiofof');
+    }
+}*/
 
 
 /*
 
+function maxNum(n1,n2){
+    return n1 >= n2 ? n1 : n2;
+
+}
+
+console.log(maxNum(2,1));
+for (let i=0; i < 40; i++) {
+    if(i % 2 === 0) {
+        continue;
+    }
+
+    console.log(i);
+}
+
+const obj = {a:1, b:2, c:3};
+
+for (let key in obj) {
+    if(key==='b'){
+        break;
+    }
+    console.log(obj[key]);
+}
+
+const arr = [1, 2, 3, 4, 5];
+
+for(let elemnt of arr){
+    if (elemnt==3){
+        console.log(elemnt);
+    }
+}
 let n = [1,2,3,4,5,6,7,8,9];
 
 for(let x  of n){
