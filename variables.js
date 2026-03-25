@@ -1,10 +1,10 @@
-let n = 5 + 5*4;
-console.log(n);
 
 
 
 
 /*
+let n = 5 + 5*4;
+console.log(n);
 
 let a = 'blue';
 let b = 'green';
