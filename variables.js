@@ -1,8 +1,26 @@
+let a = 1;
+let b = 2;
 
+const c = b >= a;
 
-
+if (c){
+    console.log('123');
+} else {
+    console.log('999');
+}
 
 /*
+
+let a = 1;
+let b = 2;
+
+const c = b >= a;
+
+if (c){
+    console.log('123');
+} else {
+    console.log('999');
+}
 let n = 5 + 5*4;
 console.log(n);
 
