@@ -1,10 +1,22 @@
+
+
+/*
+
 const person = {
     name: "John",
 }
 
 console.log(person.constructor);
 
-/*
+let newObj={};
+let newObj = new Object();
+
+new String();
+new Boolean();
+new Number();
+new Object();
+
+
 person.food=12;
 
 person['favouriteIceCream'] = 'choco';
