@@ -1,7 +1,26 @@
+
+
+
+
+
+
+/*
+
+let h = 10;
+
+if (h >= 6 && h <= 12) {
+    console.log('break');
+} else if (h >= 12 && h <=14) {
+    console.log('no break');
+} else {
+    console.log('dinner');
+}
+
+
 let a = 1;
 let b = 2;
 
-const c = b >= a;
+const c = b >= a
 
 if (c){
     console.log('123');
@@ -9,12 +28,10 @@ if (c){
     console.log('999');
 }
 
-/*
-
 let a = 1;
 let b = 2;
 
-const c = b >= a;
+const c = b >= a
 
 if (c){
     console.log('123');
