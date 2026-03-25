@@ -1,4 +1,18 @@
+let a = 'a';
 
+switch (a){
+    case 'aa':
+        console.log('aaa');
+        break;
+        case 'b':
+            console.log('bbb');
+            break;
+            case 'a':
+                console.log('ccccc');
+                break;
+                default:
+                    console.log('end');
+}
 
 
 
