@@ -1,3 +1,37 @@
+let n = [1,2,3,4,5,6,7,8,9];
+
+
+
+
+
+/*
+for (let i = 0; i < n.length; i++) {
+    console.log(n[i]);
+}
+
+let i = 0;
+
+while (i < n.length) {
+    console.log('++' + n[i]);
+    i++;
+
+}
+
+let n = [1,2,3,4,5,6,7,8,9];
+
+
+for(let num = 0; num<100; num++){
+    console.log(num);
+}
+for (let i = 0; i <n.length; i++){
+    console.log(n[i]);
+}
+
+let idx = 0;
+let len = n.length;
+
+console.log(n[idx++]);
+
 let a = 'a';
 
 switch (a){
@@ -13,12 +47,6 @@ switch (a){
                 default:
                     console.log('end');
 }
-
-
-
-
-
-/*
 
 let h = 10;
 
